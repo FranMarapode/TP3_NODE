@@ -76,3 +76,11 @@ const filtrarNum = () => {
 filtrarNum()
 
 //9
+let newArray = ["Salas", "Maravilla", "Nardoni", "Maravilla", "Arias", "Sosa", "Vietto", "Maravilla"]
+
+const cantElement = () => {
+    let cant = newArray.filter((n) => n === "Maravilla").length
+    console.log(cant)
+}
+
+cantElement()
